@@ -1,0 +1,22 @@
+#module .w150 {
+	width: 130px;
+}
+
+#module a {
+	text-decoration: underline;
+}
+
+#module thead {
+	background: #C5AF8E;
+}
+#module td {
+	padding: 0 5px;
+	text-align: center;
+}
+#module tbody tr {
+	background: #E0D1BA;
+}
+
+.subbut {
+	margin-top: 50px;
+}

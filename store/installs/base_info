@@ -1,0 +1,7 @@
+---
+- name			: morp
+  author		: linyu deng
+  version		: 1.0.0
+  order			: 23
+  dependon		: base, www
+  description	: the offical repository that stores the modules

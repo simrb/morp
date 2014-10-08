@@ -1,0 +1,13 @@
+---
+- name			: module
+  link			: /admin/view/morp_info
+  parent		: www
+  order			: 20
+  tag			: admin
+
+- name			: Modules
+  link			: /www/modules
+  tag			: www_main_menu
+  order			: 20
+  description	: share your module with your friends
+

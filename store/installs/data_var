@@ -1,0 +1,10 @@
+---
+- dkey			: repo
+  dval			: https://github.com/
+  tag			: morp
+  description	: default repository domain
+
+- dkey			: repos_desc
+  dval			: The repository is based on Github, just clone it by module name
+  description	: nothing
+  tag			: morp,label

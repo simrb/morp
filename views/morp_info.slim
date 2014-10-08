@@ -1,0 +1,27 @@
+p
+	lable = _var(:repos_desc, 'morp,label')
+
+- if @mods
+	table#module
+		thead
+			tr
+				th.w150 Module name
+				th.descpt Description
+				th.w150 Submitted time
+				th.w150 Repository
+		tbody
+			- @mods.each do | r |
+				tr
+					td = r[:name]
+					td = r[:description]
+					td = _time(r[:created])
+					td
+						a href="#{_url(_var(:repo, :morp) + r[:name])}" target="_blank"  go to
+
+.clear
+
+p.subbut
+	a href="#{_url('/www/module/new')}"
+		button = Sl['submit a new module']
+
+== _css("morp/modules.css")

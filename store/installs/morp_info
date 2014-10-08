@@ -1,0 +1,21 @@
+---
+- name			: simrb/base
+  description	: the common function for all of modules
+
+- name			: simrb/data
+  description	: a module that processes data operation of output and input of database
+
+- name			: simrb/view
+  description	: providing some view helper
+
+- name			: simrb/user
+  description	: providing management interface of user authorization 
+
+- name			: simrb/file
+  description	: file upload and download helpers
+
+- name			: simrb/admin
+  description	: background administration
+
+- name			: simrb/test
+  description	: a test module
