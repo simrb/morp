@@ -14,9 +14,8 @@ get '/www/module/new' do
 # 	]
 # 
 	view_form(:morp_info, {
-			:layout 	=> :www_layout,
+			:layout 	=> _var(:layout, :www).to_sym,
 			:tpl 		=> :view_form2,
-			:css 		=> _assets('www/edit.css'),
 			:action 	=> '/www/module/new'
 		}
 	)

@@ -1,5 +1,4 @@
-p
-	lable = _var(:repos_desc, 'morp,label')
+p = _var(:repos_desc, 'morp,label')
 
 - if @mods
 	table#module
@@ -18,10 +17,7 @@ p
 					td
 						a href="#{_url(_var(:repo, :morp) + r[:name])}" target="_blank"  go to
 
-.clear
 
-p.subbut
-	a href="#{_url('/www/module/new')}"
-		button = Sl['submit a new module']
+p: a.button.tiny href="#{_url('/www/module/new')}" = Sl['submit a new module']
 
 == _css("morp/modules.css")
